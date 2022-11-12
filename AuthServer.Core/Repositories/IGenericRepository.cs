@@ -15,9 +15,6 @@ namespace AuthServer.Core.Repositories
 
         IQueryable<TEntity> Where(Expression<Func<TEntity,bool>> predicate);
         
-        
-
-
         Task AddAsync(TEntity entity);
 
         void Remove(TEntity entity);
